@@ -1,20 +1,224 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martini Studio | Diseño con propósito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <!-- INSTRUCCIONES: Reemplaza este texto con tu etiqueta <img> del logo oficial -->
+            MARTINI STUDIO
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm9-3.5c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5zm0 5c-.69 0-1.25-.56-1.25-1.25S10.31 9.75 11 9.75s1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/></svg>
+        </div>
+        <nav class="nav-links">
+            <a href="#about">Estudio</a>
+            <a href="#services">Servicios</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
 
-# Run and deploy your AI Studio app
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1 class="hero-title">
+                    DISEÑO <br>
+                    <span class="text-accent">CON PROPÓSITO.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Somos un estudio creativo premium enfocado en identidad visual, dirección de arte y construcción de marca para proyectos que buscan trascender.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Iniciar un proyecto</a>
+                    <a href="#portfolio" class="btn btn-outline">Ver portafolio</a>
+                </div>
+            </div>
+        </section>
 
-This contains everything you need to run your app locally.
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about section-bg">
+            <div class="container grid-2">
+                <div class="about-content">
+                    <h2 class="section-title">EL MANIFIESTO</h2>
+                    <div class="divider"></div>
+                    <p>Creemos en la belleza de lo simple y el poder de lo intencional. Cada marca tiene una historia única que merece ser contada con elegancia, precisión y un carácter visual inconfundible.</p>
+                    <p>No seguimos tendencias efímeras; diseñamos sistemas visuales atemporales que elevan la percepción de tu marca y conectan profundamente con tu audiencia.</p>
+                </div>
+                <div class="about-image">
+                    <!-- INSTRUCCIONES: Reemplaza el src con una imagen de tu estudio o trabajo -->
+                    <img src="https://picsum.photos/seed/editorial1/800/1200" alt="Editorial Studio">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </section>
 
-View your app in AI Studio: https://ai.studio/apps/2594991f-c23e-46be-8830-07a6938f17b5
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="services-header">
+                    <h2 class="section-title">NUESTRA <br><span class="text-accent">EXPERTISE</span></h2>
+                    <p class="services-subtitle">Servicios especializados para marcas de autor.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <span class="service-number">01</span>
+                        <h3 class="service-title">IDENTIDAD VISUAL</h3>
+                        <p>Desarrollamos sistemas visuales cohesivos que reflejan la esencia de tu marca. Desde el diseño de logotipos hasta la paleta de colores y tipografía.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-number">02</span>
+                        <h3 class="service-title">DIRECCIÓN DE ARTE</h3>
+                        <p>Conceptualización y supervisión estética para campañas, fotografía y contenido visual, asegurando una narrativa visual impecable.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-number">03</span>
+                        <h3 class="service-title">BRANDING ESTRATÉGICO</h3>
+                        <p>Construimos los cimientos de tu marca: propósito, voz, valores y posicionamiento para destacar en un mercado competitivo.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-number">04</span>
+                        <h3 class="service-title">DISEÑO DIGITAL</h3>
+                        <p>Experiencias web y diseño de interfaces (UI/UX) que combinan estética editorial con funcionalidad excepcional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-## Run Locally
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="portfolio section-text-bg">
+            <div class="container">
+                <h2 class="section-title text-center">PROYECTOS <span class="text-accent">DESTACADOS</span></h2>
+                
+                <div class="portfolio-grid">
+                    <a href="#" class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://picsum.photos/seed/port1/800/1000" alt="Proyecto 1">
+                            <div class="portfolio-overlay"></div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div>
+                                <h3 class="portfolio-title">L'AURA BOTANICA</h3>
+                                <p class="portfolio-category">Identidad & Packaging</p>
+                            </div>
+                            <span class="portfolio-arrow">→</span>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="portfolio-card offset-card">
+                        <div class="portfolio-image">
+                            <img src="https://picsum.photos/seed/port2/800/1000" alt="Proyecto 2">
+                            <div class="portfolio-overlay"></div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div>
+                                <h3 class="portfolio-title">MAISON CÉLESTE</h3>
+                                <p class="portfolio-category">Dirección de Arte</p>
+                            </div>
+                            <span class="portfolio-arrow">→</span>
+                        </div>
+                    </a>
 
-**Prerequisites:**  Node.js
+                    <a href="#" class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://picsum.photos/seed/port3/800/1000" alt="Proyecto 3">
+                            <div class="portfolio-overlay"></div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div>
+                                <h3 class="portfolio-title">KINEO ARCHITECTURE</h3>
+                                <p class="portfolio-category">Branding & Web</p>
+                            </div>
+                            <span class="portfolio-arrow">→</span>
+                        </div>
+                    </a>
 
+                    <a href="#" class="portfolio-card offset-card">
+                        <div class="portfolio-image">
+                            <img src="https://picsum.photos/seed/port4/800/1000" alt="Proyecto 4">
+                            <div class="portfolio-overlay"></div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div>
+                                <h3 class="portfolio-title">NØRDIC</h3>
+                                <p class="portfolio-category">Diseño Editorial</p>
+                            </div>
+                            <span class="portfolio-arrow">→</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+        <!-- TESTIMONIALS -->
+        <section class="testimonials section-bg">
+            <div class="container text-center max-w-md">
+                <span class="quote-mark">"</span>
+                <p class="quote-text">Martini Studio transformó por completo la percepción de nuestra marca. Su enfoque meticuloso y estética refinada elevaron nuestro proyecto a un nivel de lujo que no creíamos posible.</p>
+                <div class="quote-author">
+                    <p class="author-name">Elena Rostova</p>
+                    <p class="author-title">Fundadora, L'Aura Botanica</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section class="cta text-center">
+            <div class="container max-w-md">
+                <h2 class="section-title">ELEVEMOS TU <span class="text-accent">MARCA.</span></h2>
+                <p class="cta-subtitle">Estamos aceptando nuevos proyectos. Contáctanos para discutir cómo podemos colaborar y dar vida a tu visión.</p>
+                <a href="mailto:hola@martinistudio.com" class="btn btn-primary">Agendar una consulta</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer section-bg">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        MARTINI STUDIO
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm9-3.5c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5zm0 5c-.69 0-1.25-.56-1.25-1.25S10.31 9.75 11 9.75s1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/></svg>
+                    </div>
+                    <p>Estudio creativo premium especializado en identidades visuales atemporales y dirección de arte.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="mailto:hola@martinistudio.com">hola@martinistudio.com</a></li>
+                        <li>+34 900 123 456</li>
+                        <li>Madrid, España</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Social</h4>
+                    <div class="social-icons">
+                        <a href="#">IG</a>
+                        <a href="#">IN</a>
+                        <a href="#">BE</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Martini Studio. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
